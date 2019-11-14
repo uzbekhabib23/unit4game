@@ -1,0 +1,66 @@
+/* General Elements*/
+body{
+    background-image: url("../images/background.jpg");
+}
+div{
+	background-color: salmon;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px salmon;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
+}
+h1{
+    font-size: 30pt;
+    font-family: fantasy;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: salmon;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 72px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: darkblue;
+}
+#green{
+	color: darkgreen;
+}
+#red{
+	color: darkred;
+}
+#yellow{
+	color: rgb(240, 225, 17);
+}
