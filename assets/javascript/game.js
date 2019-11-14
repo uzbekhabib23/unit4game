@@ -35,14 +35,14 @@ $( document ).ready(function(){
         } 
   //adds the wins to the userTotal so it keeps track
   function yay(){
-  alert("YOU ARE A CHAMP!");
+  alert("WINNER!");
     wins++; 
     $('#numberWins').text(wins);
     reset();
   }
   //adds the losses to the userTotal so it keeps track
   function loser(){
-  alert ("YOU MUST SUCK AT MATH!");
+  alert ("LOSER!");
     losses++;
     $('#numberLosses').text(losses);
     reset()
